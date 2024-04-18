@@ -1,0 +1,67 @@
+# Cache, session files and logs (Symfony3)
+symfony_backend/var/cache/**
+symfony_backend/var/logs/**
+symfony_backend/var/sessions/**
+
+# Logs (Symfony4)
+symfony_backend/var/log/*
+
+symfony_backend/.phpunit.result.cache
+
+# Managed by Composer
+symfony_backend/var/bootstrap.php.cache
+symfony_backend/bin/*
+!symfony_backend/bin/console
+!symfony_backend/bin/symfony_requirements
+symfony_backend/vendor/
+
+# Assets and user uploads
+symfony_backend/web/bundles/
+symfony_backend/web/uploads/
+
+# PHPUnit
+symfony_backend/app/phpunit.xml
+symfony_backend/phpunit.xml
+
+# Build data
+symfony_backend/build/
+
+# Composer PHAR
+symfony_backend/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+**/Entity/*~
+
+# Embedded web-server pid file
+symfony_backend/.web-server-pid
+
+# Logs
+vue_frontend/logs
+vue_frontend/*.log
+vue_frontend/npm-debug.log*
+vue_frontend/yarn-debug.log*
+vue_frontend/yarn-error.log*
+vue_frontend/pnpm-debug.log*
+vue_frontend/lerna-debug.log*
+
+vue_frontend/node_modules
+vue_frontend/.DS_Store
+vue_frontend/dist
+vue_frontend/dist-ssr
+vue_frontend/coverage
+vue_frontend/*.local
+
+vue_frontend/cypress/videos/
+vue_frontend/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
